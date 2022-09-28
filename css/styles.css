@@ -3,5 +3,11 @@
 *::before {
   box-sizing: border-box;
 }
+:root {
+  --primary-text-color: black;
+  --title-text-color: white;
+  --accent-color: blue;
+}
 body {
+  background-color: var();
 }

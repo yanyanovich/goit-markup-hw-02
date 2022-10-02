@@ -4,15 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Home</title>
   </head>
   <body>
     <header class="header">
-      <a class="header-logo" href="./portfolio.html"><span>Web</span>Studio</a>
+      <a class="header-logo" href="#"><span>Web</span>Studio</a>
       <nav class="navigation">
         <ul>
           <li class="navigation-link current"><a href="#">Студія</a></li>
-          <li class="navigation-link"><a href="#">Портфоліо</a></li>
+          <li class="navigation-link">
+            <a href="./portfolio.html">Портфоліо</a>
+          </li>
           <li class="navigation-link"><a href="#">Контакти</a></li>
         </ul>
       </nav>
@@ -31,7 +40,7 @@
         <button class="hero-button" type="button">Замовити послугу</button>
       </section>
       <section class="benefits-section">
-        <h2>Наші переваги</h2>
+        <h2 class="visually-hidden">Наші переваги</h2>
         <ul class="benefits-list">
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -138,7 +147,9 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="header-logo" href="/"><span>Web</span>Studio</a>
+      <a class="header-logo footer" href="./index.html"
+        ><span>Web</span>Studio</a
+      >
       <address>
         <ul class="footer-contacts">
           <li>

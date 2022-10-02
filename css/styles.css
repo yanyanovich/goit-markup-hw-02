@@ -1,13 +1,169 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 :root {
-  --primary-text-color: black;
-  --title-text-color: white;
-  --accent-color: blue;
+  --primary-text-color: #757575;
+  --hover-color: #2196f3;
+  --bacground-color: #fffff;
+  --titles-color: #212121;
+  --primary-white-color: #ffffff;
 }
 body {
-  background-color: var();
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  background-color: var(--bacground-color);
 }
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+li {
+  list-style: none;
+}
+/* header start */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+}
+.header-logo span {
+  color: #2196f3;
+}
+.navigation .navigation-link a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  color: #212121;
+}
+.navigation .navigation-link.current a {
+  color: #2196f3;
+}
+.navigation .navigation-link a:hover,
+.navigation .navigation-link a:focus {
+  color: var(--hover-color);
+}
+.header-information .header-mail a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+}
+.header-information a:hover,
+.header-information a:focus {
+  color: var(--hover-color);
+}
+/* end header */
+
+/* hero-section section home page */
+.hero-section {
+  background-color: #2f303a;
+}
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--hover-color);
+  font-weight: 700;
+  line-height: 1.87;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+}
+/* end hero-section section home page */
+/* start benefits cection */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.benefits-list h3 {
+  color: var(--titles-color);
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.benefits-list p {
+  line-height: 1.7;
+  font-size: 14px;
+}
+/* end benefits cection */
+/* start about section */
+.about-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--titles-color);
+}
+/* end about section */
+/* start team section */
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-section h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--titles-color);
+}
+.team-list li {
+  background-color: var(--primary-white-color);
+}
+.team-list li h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--titles-color);
+}
+.team-list li p {
+  /* font-weight: 400;
+  font-size: 16px; */
+  line-height: 1.19;
+}
+/* end team section */
+
+/* footer srart */
+.footer {
+  background-color: #2f303a;
+}
+a.header-logo.footer {
+  color: var(--primary-white-color);
+}
+address {
+  font-style: normal;
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-white-color);
+}
+.footer-mail a,
+.footer-phone a {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-mail a:hover,
+.footer-phone a:hover,
+.footer-mail a:focus,
+.footer-phone a:focus {
+  color: var(--hover-color);
+}
+
+/* footer end */

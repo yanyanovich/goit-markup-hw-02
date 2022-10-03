@@ -146,6 +146,7 @@ li {
   line-height: 1.62;
   color: var(--titles-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .tabs-button button:hover,
 .tabs-button button:focus {

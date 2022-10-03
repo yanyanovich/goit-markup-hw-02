@@ -141,6 +141,25 @@ li {
 
 /* portfolio page srart */
 .tabs-button button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--titles-color);
+  background-color: #f5f4fa;
+}
+.tabs-button button:hover,
+.tabs-button button:focus {
+  background-color: var(--hover-color);
+  color: var(--primary-white-color);
+}
+.portfolio-item h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--titles-color);
+}
+.portfolio-item p {
+  line-height: 1.87;
 }
 /* portfolio page end */
 /* footer srart */

@@ -35,6 +35,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 .navigation .navigation-link.current a {
@@ -44,9 +45,11 @@ li {
 .navigation .navigation-link a:focus {
   color: var(--hover-color);
 }
-.header-information .header-mail a {
+.header-information .header-mail a,
+.header-information .header-phone a {
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
   line-height: 1.15;
 }
 .header-information a:hover,
@@ -70,7 +73,10 @@ li {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--hover-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 700;
+  letter-spacing: 0.06em;
   line-height: 1.87;
   cursor: pointer;
 }
@@ -97,18 +103,21 @@ li {
   color: var(--titles-color);
   font-weight: 700;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   font-size: 14px;
   text-transform: uppercase;
 }
 .benefits-list p {
   line-height: 1.7;
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 /* end benefits cection */
 /* start about section */
 .about-section h2 {
   font-weight: 700;
   font-size: 36px;
+  letter-spacing: 0.03em;
   line-height: 1.17;
   color: var(--titles-color);
 }
@@ -121,6 +130,7 @@ li {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--titles-color);
 }
 .team-list li {
@@ -129,20 +139,22 @@ li {
 .team-list li h3 {
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--titles-color);
 }
 .team-list li p {
-  /* font-weight: 400;
-  font-size: 16px; */
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* end team section */
 
 /* portfolio page srart */
 .tabs-button button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.62;
   color: var(--titles-color);
   background-color: #f5f4fa;
@@ -156,11 +168,13 @@ li {
 .portfolio-item h3 {
   font-weight: 700;
   font-size: 18px;
+  letter-spacing: 0.06em;
   line-height: 2;
   color: var(--titles-color);
 }
 .portfolio-item p {
   line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 /* portfolio page end */
 /* footer srart */
@@ -176,11 +190,14 @@ address {
 .footer-address {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 .footer-mail a,
 .footer-phone a {
   font-size: 14px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
 .footer-mail a:hover,
